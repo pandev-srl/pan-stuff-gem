@@ -18,3 +18,6 @@ gem 'simplecov', '~> 0.22.0'
 gem 'timecop', '~> 0.9.10'
 gem 'vcr', '~> 6.3'
 gem 'webmock', '~> 3.23'
+gem "zeitwerk", "~> 2.6"
+
+gem "listen", "~> 3.9"

@@ -1,6 +1,12 @@
-require "pan_stuff/version"
-require "pan_stuff/railtie"
+require "zeitwerk"
+
+require 'active_model'
+require 'json'
+require 'money'
+
+loader = Zeitwerk::Loader.for_gem
+loader.enable_reloading
+loader.setup
 
 module PanStuff
-  # Your code goes here...
 end
