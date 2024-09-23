@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class CreateRelatedObjects < ActiveRecord::Migration[7.2]
   def change
     create_table :related_objects do |t|
