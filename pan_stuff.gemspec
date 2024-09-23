@@ -16,8 +16,8 @@ Gem::Specification.new do |spec|
 
   spec.metadata['rubygems_mfa_required'] = 'true'
   spec.metadata['homepage_uri']          = spec.homepage
-  spec.metadata['source_code_uri']       = spec.homepage
-  spec.metadata['changelog_uri']         = spec.homepage
+  # spec.metadata['source_code_uri']       = spec.homepage
+  # spec.metadata['changelog_uri']         = spec.homepage
 
   spec.files = Dir.chdir(File.expand_path(__dir__)) do
     Dir["lib/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
