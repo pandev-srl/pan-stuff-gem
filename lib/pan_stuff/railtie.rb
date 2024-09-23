@@ -29,7 +29,8 @@ module PanStuff
       
         result
       end
-      
+
+      ActiveRecord::Base.send(:include, PanStuff::ActiveRecordPagination)
     end
 
   end

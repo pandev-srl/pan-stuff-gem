@@ -67,4 +67,5 @@ require File.expand_path('dummy/config/environment', __dir__)
 require 'rspec/rails'
 
 require 'plugins/money'
+require 'plugins/in_memory_database'
 require 'support/examples'
