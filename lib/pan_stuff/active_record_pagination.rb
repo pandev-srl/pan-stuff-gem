@@ -20,7 +20,7 @@ module PanStuff
         }
         [
           limit(limit).offset(offset),
-          metadata,
+          metadata
         ]
       end
     end

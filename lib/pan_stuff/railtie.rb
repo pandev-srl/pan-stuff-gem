@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module PanStuff
   class Railtie < ::Rails::Railtie
     initializer 'pan_stuff.setup_renderers' do
