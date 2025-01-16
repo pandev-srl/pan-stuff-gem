@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    pan_stuff (0.1.0)
+    pan_stuff (0.1.1)
       money (~> 6.19)
       rails (>= 7.0.0, < 8)
 
