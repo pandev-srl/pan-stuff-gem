@@ -27,7 +27,7 @@ module PanStuff
       @resource = resource_creator
 
       if @resource.errors.any?
-        render resource_errors: @resource.errors, status: :unprocessable_entity
+        render resource_errors: @resource.errors, status: :unprocessable_content
       else
         render resource:   @resource,
                serializer: create_resource_serializer,
@@ -43,7 +43,7 @@ module PanStuff
       @resource = resource_updater
 
       if @resource.errors.any?
-        render resource_errors: @resource.errors, status: :unprocessable_entity
+        render resource_errors: @resource.errors, status: :unprocessable_content
       else
         render resource:   @resource,
                serializer: update_resource_serializer,
@@ -58,7 +58,7 @@ module PanStuff
       @resource = resource_destroyer
 
       if @resource.errors.any?
-        render resource_errors: @resource.errors, status: :unprocessable_entity
+        render resource_errors: @resource.errors, status: :unprocessable_content
       else
         render resource:   @resource,
                serializer: destroy_resource_serializer,

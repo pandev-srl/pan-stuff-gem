@@ -108,7 +108,7 @@ RSpec.describe 'PanStuff::ResourcesController', type: :controller do
                                                   })
       end
 
-      it { expect(response).to have_http_status :unprocessable_entity }
+      it { expect(response).to have_http_status :unprocessable_content }
     end
 
     context 'with missing root param' do
@@ -146,7 +146,7 @@ RSpec.describe 'PanStuff::ResourcesController', type: :controller do
                                                   })
       end
 
-      it { expect(response).to have_http_status :unprocessable_entity }
+      it { expect(response).to have_http_status :unprocessable_content }
     end
   end
 
@@ -176,7 +176,7 @@ RSpec.describe 'PanStuff::ResourcesController', type: :controller do
                                                   })
       end
 
-      it { expect(response).to have_http_status :unprocessable_entity }
+      it { expect(response).to have_http_status :unprocessable_content }
     end
   end
 end
