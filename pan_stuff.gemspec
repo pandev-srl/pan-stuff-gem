@@ -25,7 +25,7 @@ Gem::Specification.new do |spec|
     Dir['lib/**/*', 'MIT-LICENSE', 'Rakefile', 'README.md']
   end
 
-  spec.required_ruby_version = '>= 3.2.0', '< 3.4'
+  spec.required_ruby_version = '>= 3.2.0', '< 3.5'
 
   spec.add_dependency 'money', '~> 6.19'
   spec.add_dependency 'rails', '>= 7.0.0', '< 8.1'
